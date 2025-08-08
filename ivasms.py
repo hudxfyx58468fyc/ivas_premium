@@ -18,7 +18,7 @@ PING_INTERVAL = 25
 start_pinging = False
 
 BOT_TOKEN = "8239716610:AAF8KwyXHH-aMMJzSzi6i3CuykwQzkZlKn8"
-GROUP_ID = "1002311125652"
+GROUP_ID = "-1002786792728"
 CHANNEL_URL = "https://t.me/ws_unlimited"
 DEV_URL = "https://t.me/misss_hania"
 
