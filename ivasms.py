@@ -14,11 +14,11 @@ from flask import Flask, Response
 WS_URL = "wss://ivasms.com:2087/socket.io/?token=eyJpdiI6IkNOejdzQVdEK0pmbkh0VlIrN28wdWc9PSIsInZhbHVlIjoiYUUyNnYwc2ttL1NGOGFTbmNyZVF1NUx4MnUvaFRjNzRyMlBmYk9yendoYWlzMUtBazVZUGJzem5qelRmc0RQaVljZ2lwRU9Nb1hPODVhVkswREcydUVyT2l2NHBROEtYK0tYSW81ck1KZGpmSVlVRU9tSG5xL0dDQU0vVmUzbU1uZ2VKanpRZUplWXV1Tk1kUGpST0dEbS9iU1UyZ0xYSUJVc3J6NkRxTk1IZEE3Wm0yYzkwNzZQaFN2cGZvSUNFRmREQnpGZ2ladG5oTStZWUs1UGd3SE40anU3d3pIdElaeWJJemFxenhpTXh2dXpuVjNjRWRaUDRpMElJUVNqSG5YSjBySW5IT2JmZmtMSThQY0hYTDR3aXlLaW5pQW51Zm9rTkNtTGZRRWlIZGszdGpKUG5jZEhEL1pwOGFxQ2RiTm44dlJRVmhuaDNrS0FNL1U4eHdvdHplWDNscHBUZ0xtSXU0cm1TdjR5L0pwT3VPQVFnQk03ZHp2aVduUklUWDBkSWF4K0Q3c01hZ01aYzROVHUvWUFxMHFFY1NtdHpBZURYK1BUK3JSK2NVUlVGb0I1bXo3L1JJK05GRUJxeFpDMTFFSUFKQ2ZjVjYrSTZXSzNmYVVocGNtSkhLaXZNQnJ1ekhSS1dkNzNEeC9GcWZKZVU0aGJ2QVFMWDRXY3BKV25BVXZqdklwN2RCV1ZqYWxmWXpBPT0iLCJtYWMiOiI4NDYyNzFiNTBiYmUyNDFlZThlNGFlZjYwMDA3MGY3OWQ5ZWM5NzJkMDBjNzE3YTQ3YTk3OTVhY2M0NWYxZWMxIiwidGFnIjoiIn0%3D&user=39847ce326f975d2c33a858c72fae10c&EIO=4&transport=websocket"  # replace this
 
 AUTH_MESSAGE = '42/livesms,["39847ce326f975d2c33a858c72fae10c"]'  # ⚠️ YOUR LIVE TOKEN
-PING_INTERVAL = 150
+PING_INTERVAL = 25
 start_pinging = False
 
-BOT_TOKEN = ""
-GROUP_ID = "-1002311125652"
+BOT_TOKEN = "8239716610:AAF8KwyXHH-aMMJzSzi6i3CuykwQzkZlKn8"
+GROUP_ID = "1002311125652"
 CHANNEL_URL = "https://t.me/ws_unlimited"
 DEV_URL = "https://t.me/misss_hania"
 
@@ -31,7 +31,7 @@ def send_to_telegram(text):
                 {"text": "📢 Channel", "url": CHANNEL_URL},
                 {"text": "👨‍💻 Developer", "url": DEV_URL}
             ]
-        ]
+    ]
     }
 
     payload = {
