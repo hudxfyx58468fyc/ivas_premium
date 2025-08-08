@@ -1,4 +1,4 @@
-hi
+
 import websocket
 import threading
 import time
