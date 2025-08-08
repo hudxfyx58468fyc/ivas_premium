@@ -1,4 +1,4 @@
-
+hi
 import websocket
 import threading
 import time
@@ -11,16 +11,16 @@ from flask import Flask, Response
 
 # -------------------- CONFIG --------------------
 
-WS_URL = "Long Token Here"  # replace this
+WS_URL = "eyJpdiI6Ikg4VmhtR0c4ZFkxZFNYS3lEV2ZRT0E9PSIsInZhbHVlIjoidXhOS1plVWtFcTNDZUJHd1N5cU1zV01UZFdoOWdxTlJsRlQ0ME5yU1JzS3dGeUZmK2lxTFhPQmt4NHFPVTlPajlmcC9IMDA2b2VjM3ZnaFpFY2xBdFpuMmttckpTUmc2cnRoZ3ltc2t3UUpnRUJrSkpHVUgxY3FDdlM4clNFVGNlWDZETmR4QU1WWm8rWFQ5WUwyOWtNc3ZMOVp2SmRNbUJpalovR1dtYzhyTjBYSWNmZzFSbHNHbXRNOHlEWXMyU2VoUzFXWWJ1UWwvZW9XT3BabjFFejNoVXFJVzdGbVIwL0JqdFVIamRNUS9KeGQ4SXVOU3hWbFhhdWFJdWxWTlUzYjdOcUxSVXFYejhIMkdQaFhZRVpuMVZwYU9pNlpNTUlLOTJSOHZNdit2SlYzMmFjM3lndStVdHluOUNQZjBrVWQ2UlE4b3BFVFRQR3lQc1c3Y1QzMkxyWUNpVzRmRVNOZUh1WUpCNWhUaDBVTklFNUtzLzNIYXdMVWhJNG9IUTNIdGlVMFN2Z0ZOSkZVZFBxRThOazhIZmRDKzFFNkdtSnlHZEErRDdOR3BUd2xWRkdPSis3aU5vZWtveFBBR0ZOSU9iNVRCVDdTb2JYdzRpMnM0WkdqSlpDcWZWY2E1d0MwTnpRMjVodGowRDFsb2lXNXhwY09HbkVTc1RTNHBtekhQbnVrelpUN3pkLzVybkwwS3lnPT0iLCJtYWMiOiJhZTg3OGZiNmZjMzBjMTQzNDJkYjZmNGVjOGE1YmI5MzZjZjY4YTJjMjU3ZDc1ODc2ODE3ZjUxZGQ4YTAxODdlIiwidGFnIjoiIn0="  # replace this
 
-AUTH_MESSAGE = '42/livesms,["User Id..."]'  # ⚠️ YOUR LIVE TOKEN
+AUTH_MESSAGE = '42/livesms,["39847ce326f975d2c33a858c72fae10c"]'  # ⚠️ YOUR LIVE TOKEN
 PING_INTERVAL = 150
 start_pinging = False
 
 BOT_TOKEN = ""
 GROUP_ID = "-1002311125652"
-CHANNEL_URL = "https://t.me/ddxotp"
-DEV_URL = "https://t.me/imvasupareek"
+CHANNEL_URL = "https://t.me/ws_unlimited"
+DEV_URL = "https://t.me/misss_hania"
 
 # -------------------- TELEGRAM --------------------
 
